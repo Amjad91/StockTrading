@@ -3,7 +3,7 @@ stock mobile app, which uses open APIs that provided by Yahoo-Finance for a fast
 
 ___
 
-![alt text](https://github.com/Amjad91/StockTrading/blob/master/img/1.png =250x250)
+![alt text](https://github.com/Amjad91/StockTrading/blob/master/img/1.png | width=100)
 ![alt text](https://github.com/Amjad91/StockTrading/blob/master/img/2.png =250x250)
 ![alt text](https://github.com/Amjad91/StockTrading/blob/master/img/3.png =250x250)
 ![alt text](https://github.com/Amjad91/StockTrading/blob/master/img/4.png =250x250)
