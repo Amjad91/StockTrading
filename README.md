@@ -3,15 +3,13 @@ stock mobile app, which uses open APIs that provided by Yahoo-Finance for a fast
 
 ___
 
-![alt text](https://github.com/Amjad91/StockTrading/blob/master/img/1.png){:height="50%" width="50%"}
 <img src="./img/1.png" width="40%">
-![alt text](https://github.com/Amjad91/StockTrading/blob/master/img/2.png){:height="50%" width="50%"}
-![alt text](https://github.com/Amjad91/StockTrading/blob/master/img/3.png){:height="50%" width="50%"}
-![alt text](https://github.com/Amjad91/StockTrading/blob/master/img/4.png =250x250)
-![alt text](https://github.com/Amjad91/StockTrading/blob/master/img/5.png =250x250)
-![alt text](https://github.com/Amjad91/StockTrading/blob/master/img/6.png =250x250)
-![alt text](https://github.com/Amjad91/StockTrading/blob/master/img/7.png =250x250)
-![alt text](https://github.com/Amjad91/StockTrading/blob/master/img/8.png =250x250)
+<img src="./img/2.png" width="40%">
+<img src="./img/3.png" width="40%">
+<img src="./img/4.png" width="40%">
+<img src="./img/5.png" width="40%">
+<img src="./img/6.png" width="40%">
+<img src="./img/7.png" width="40%">
 
 
 ## Installation
