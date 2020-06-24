@@ -1,0 +1,368 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".ui.home.InfoFragment"
+    android:scrollbars="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:scrollbars="vertical">
+
+        <TextView
+            android:id="@+id/stockInfo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Stock Name"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/stockNameInfo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/stockInfo"
+            android:text="Stock Name"
+            android:layout_marginLeft="50dp"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_below="@+id/stockInfo"
+            android:layout_marginTop="5dp"
+            android:background="#CCCCCC" />
+
+        <TextView
+            android:id="@+id/preCloseText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/stockInfo"
+            android:layout_marginTop="15dp"
+            android:text="Previous Close"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/preClose"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/stockNameInfo"
+            android:layout_alignLeft="@+id/stockNameInfo"
+            android:layout_alignRight="@+id/stockNameInfo"
+            android:layout_marginTop="15dp"
+            android:text="Close" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_below="@+id/preCloseText"
+            android:layout_marginTop="5dp"
+            android:background="#CCCCCC" />
+
+        <TextView
+            android:id="@+id/openTextInfo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/preCloseText"
+            android:layout_marginTop="15dp"
+            android:text="Open"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/openInfo"
+            android:layout_width="77dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/preClose"
+            android:layout_alignLeft="@+id/preClose"
+            android:layout_alignRight="@+id/preClose"
+            android:layout_marginTop="15dp"
+            android:text="Open" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_below="@+id/openTextInfo"
+            android:layout_marginTop="5dp"
+            android:background="#CCCCCC" />
+
+        <TextView
+            android:id="@+id/bidText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/openTextInfo"
+            android:layout_marginTop="15dp"
+            android:text="Bid"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/bid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/openInfo"
+            android:layout_alignLeft="@+id/openInfo"
+            android:layout_alignRight="@+id/openInfo"
+            android:layout_marginTop="15dp"
+            android:text="Bid" />
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_below="@+id/bidText"
+            android:layout_marginTop="5dp"
+            android:background="#CCCCCC" />
+
+        <TextView
+            android:id="@+id/askText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/bidText"
+            android:layout_marginTop="15dp"
+            android:text="Ask"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/ask"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/bid"
+            android:layout_alignLeft="@+id/bid"
+            android:layout_alignRight="@+id/bid"
+            android:layout_marginTop="15dp"
+            android:text="Ask" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_below="@+id/askText"
+            android:layout_marginTop="5dp"
+            android:background="#CCCCCC" />
+
+
+        <TextView
+            android:id="@+id/volumeText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/askText"
+            android:layout_marginTop="15dp"
+            android:text="regular Volume"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/volume"
+            android:layout_width="174dp"
+            android:layout_height="18dp"
+            android:layout_below="@+id/ask"
+            android:layout_alignLeft="@+id/ask"
+            android:layout_alignRight="@+id/ask"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="-80dp"
+            android:text="regular Volume" />
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_below="@+id/volumeText"
+            android:layout_marginTop="5dp"
+            android:background="#CCCCCC" />
+
+
+        <TextView
+            android:id="@+id/capText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/volumeText"
+            android:layout_marginTop="15dp"
+            android:text="Market Cap"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/cap"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/volume"
+            android:layout_alignLeft="@+id/volume"
+            android:layout_alignRight="@+id/volume"
+            android:layout_marginTop="15dp"
+            android:text="market Cap" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_below="@+id/capText"
+            android:layout_marginTop="5dp"
+            android:background="#CCCCCC" />
+
+
+        <TextView
+            android:id="@+id/changeText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/capText"
+            android:layout_marginTop="15dp"
+            android:text="Market Change"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/change"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/cap"
+            android:layout_alignLeft="@+id/cap"
+            android:layout_alignRight="@+id/cap"
+            android:layout_marginTop="15dp"
+            android:text="Market Change" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_below="@+id/changeText"
+            android:layout_marginTop="5dp"
+            android:background="#CCCCCC" />
+
+
+        <TextView
+            android:id="@+id/profile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/changeText"
+            android:layout_marginTop="15dp"
+            android:text="Profile :"
+            android:textStyle="bold" />
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/profile"
+            android:stretchColumns="1"
+            android:scrollbars="vertical"
+            android:singleLine="false"
+            >
+
+            <TableRow>
+
+                <TextView
+                    android:layout_column="1"
+                    android:padding="3dip"
+                    android:text="Sector"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/sector"
+                    android:gravity="right"
+                    android:padding="3dip"
+                    android:text="sector"
+                    android:textAlignment="viewStart"
+                    tools:ignore="RtlCompat" />
+            </TableRow>
+
+            <TableRow android:layout_height="fill_parent"
+                android:layout_width="fill_parent"
+
+                >
+
+                <TextView
+                    android:layout_column="1"
+                    android:padding="3dip"
+                    android:text="FullTime Employees"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/employee"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:padding="3dip"
+                    android:text="fullTimeEmployees"
+                    android:textAlignment="viewStart"
+                    tools:ignore="RtlCompat"/>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                >
+
+                <TextView
+                    android:layout_column="1"
+                    android:padding="3dip"
+                    android:text="Long Business Summary "
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/summary"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:padding="3dip"
+                    android:text="longBusinessSummary"
+                    android:layout_width="200dp"
+                    android:singleLine="false"
+                    android:maxLines="100"
+                    android:textAlignment="viewStart"
+                    tools:ignore="RtlCompat" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:layout_column="1"
+                    android:padding="3dip"
+                    android:text="City"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/city"
+                    android:gravity="right"
+                    android:padding="3dip"
+                    android:text="city"
+                    android:textAlignment="viewStart"
+                    tools:ignore="RtlCompat"/>
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:layout_column="1"
+                    android:padding="3dip"
+                    android:text="Country"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/country"
+                    android:gravity="right"
+                    android:padding="3dip"
+                    android:text="country"
+                    android:textAlignment="viewStart"
+                    tools:ignore="RtlCompat"/>
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:layout_column="1"
+                    android:padding="3dip"
+                    android:text="Website"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/website"
+                    android:gravity="right"
+                    android:padding="3dip"
+                    android:text="website"
+                    android:textAlignment="viewStart"
+                    tools:ignore="RtlCompat"/>
+            </TableRow>
+
+
+        </TableLayout>
+
+    </RelativeLayout>
+
+</FrameLayout>
+    </ScrollView>
