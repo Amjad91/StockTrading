@@ -1,7 +1,17 @@
 # StockTrading App
-### stock mobile app, which uses open APIs that provided by Yahoo-Finance for a fast transmit of the stock data. Also, Quandl API for fetch the historical data of stock and used open source library MpAndroid to carry out chart that offer stock analysis.
+stock mobile app, which uses open APIs that provided by Yahoo-Finance for a fast transmit of the stock data. Also, Quandl API for fetch the historical data of stock and used open source library MpAndroid to carry out chart that offer stock analysis.
 
 ___
+
+![alt text](https://github.com/Amjad91/StockTrading/blob/master/img/1.png)
+![alt text](https://github.com/Amjad91/StockTrading/blob/master/img/2.png)
+![alt text](https://github.com/Amjad91/StockTrading/blob/master/img/3.png)
+![alt text](https://github.com/Amjad91/StockTrading/blob/master/img/4.png)
+![alt text](https://github.com/Amjad91/StockTrading/blob/master/img/5.png)
+![alt text](https://github.com/Amjad91/StockTrading/blob/master/img/6.png)
+![alt text](https://github.com/Amjad91/StockTrading/blob/master/img/7.png)
+![alt text](https://github.com/Amjad91/StockTrading/blob/master/img/8.png)
+
 
 ## Installation
  >add to Gradle/build.gradle (app)
