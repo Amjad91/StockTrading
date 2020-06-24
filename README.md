@@ -1,8 +1,5 @@
 # StockTrading App
-## stock mobile app, which uses open APIs that provided by Yahoo-Finance for a fast
-transmit of the stock data. Also, Quandl API for fetch the historical data of
-stock and used open source library MpAndroid to carry out chart that offer
-stock analysis.
+### stock mobile app, which uses open APIs that provided by Yahoo-Finance for a fast transmit of the stock data. Also, Quandl API for fetch the historical data of stock and used open source library MpAndroid to carry out chart that offer stock analysis.
 
 ___
 
