@@ -3,13 +3,9 @@ stock mobile app, which uses open APIs that provided by Yahoo-Finance for a fast
 
 ___
 
-<img src="./img/1.png" width="10%">
-<img src="./img/2.png" width="200" height="300">
-<img src="./img/3.png" width="40%">
-<img src="./img/4.png" width="40%">
-<img src="./img/5.png" width="40%">
-<img src="./img/6.png" width="40%">
-<img src="./img/7.png" width="40%">
+<img src="./img/1.png" width="10%"> <img src="./img/2.png" width="200" height="350"> <img src="./img/3.png" width="200" height="350">
+<img src="./img/4.png" width="200" height="350"> <img src="./img/5.png" width="200" height="350"> <img src="./img/6.png" width="200" height="350"> 
+<img src="./img/7.png" width="200" height="350"> <img src="./img/8.png" width="200" height="350"> <img src="./img/9.png" width="200" height="350">
 
 
 ## Installation
