@@ -2,14 +2,14 @@
 stock mobile app, which uses open APIs that provided by Yahoo-Finance for a fast transmit of the stock data. Also, Quandl API for fetch the historical data of stock and used open source library MpAndroid to carry out chart that offer stock analysis.
 
 ___
+| ***Home Page***                                  | ***My Stock List***                              |                                                  |
+|--------------------------------------------------|--------------------------------------------------|--------------------------------------------------|
+| <img src="./img/2.png" width="200" height="350"> | <img src="./img/3.png" width="200" height="350"> |                                                  |
+| ***Adding New Stock***                           | ***View Selected Stock Info (Chart)***           | ***View Selected Stock Details***                |
+| <img src="./img/4.png" width="200" height="350"> | <img src="./img/5.png" width="200" height="350"> | <img src="./img/6.png" width="200" height="350"> |
+| ***News Page***                                  | ***Open Selected News Artical Url***             | ***About***                                      |
+| <img src="./img/7.png" width="200" height="350"> | <img src="./img/8.png" width="200" height="350"> | <img src="./img/9.png" width="200" height="350"> |
 
-| ***Home Page***                                      | ***My Stock List***                              |                                                  |
-| -------------                                        |:-------------                                   :| -----                                           :|
-| <img src="./img/2.png" width="200" height="350">     | <img src="./img/3.png" width="200" height="350"> |                                                  |
-|***Adding New Stock***                                | ***View Selected Stock Info (Chart)***           | ***View Selected Stock Details***                |
-| <img src="./img/4.png" width="200" height="350">     | <img src="./img/5.png" width="200" height="350"> |  <img src="./img/6.png" width="200" height="350">|
-| ***News Page***                                      |       ***Open Selected News Artical Url***       |  ***About***                                     |
-<img src="./img/7.png" width="200" height="350">       | <img src="./img/8.png" width="200" height="350"> | <img src="./img/9.png" width="200" height="350"> |
 
 
 
